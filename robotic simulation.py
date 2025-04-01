@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 
 # Step 1: Load the dataset
-df = pd.read_csv(r"C:\Users\spand\Documents\sensor_data.csv")  # Ensure the CSV is in the same directory
+df = pd.read_csv(r"C:\Users\spand\Documents\Spandan_repo\sensor_data.csv")  # Ensure the CSV is in the same directory
 
 # Step 2: Prepare data for training
 X = df[['Voltage']]  # Input feature: Voltage
